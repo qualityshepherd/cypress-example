@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://qualityshepherd.com",
+    "fixturesFolder": "fixtures",
+    "integrationFolder": "specs",
+    "pluginsFile": "plugins",
+    "screenshotsFolder": "screenshots",
+    "supportFile": "support"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "cypress-example",
+  "version": "1.0.0",
+  "description": "An example Cypress e2e test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "ui",
+    "test",
+    "automation"
+  ],
+  "author": "Brine",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "cypress": "^1.4.1"
+  }
+}
