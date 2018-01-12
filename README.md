@@ -8,5 +8,5 @@ I started porting my typical, _dorky_ tests over to using Cypress, as I've done 
 In case you'd like to see it go!
 1. clone it
 2. `npm install`
-3. 'npm test'
+3. `npm test`
 4. click the test link in the Cypress app window
