@@ -1,4 +1,4 @@
-# Cypress Exammple
+# Cypress Example
 
 An example project using the automation tool, [Cypress](https://www.cypress.io/).
 
