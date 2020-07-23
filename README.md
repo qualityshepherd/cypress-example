@@ -22,3 +22,8 @@ Cypress is an _agressively_ opinionated framework... some of these opinions are 
 1. all'vum: `npm test`
 1. just homePage: `npm run cy:home`
 1. headless: `npm run cy:headless`
+
+
+---
+
+![Test Run Gif](https://qualityshepherd.com/screencasts/cypress_testrun.gif)
