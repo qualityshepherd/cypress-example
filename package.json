@@ -4,7 +4,11 @@
   "description": "An example Cypress e2e test project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress open"
+    "cy": "./node_modules/.bin/cypress",
+    "cy:open": "npm run cy open",
+    "test": "npm run cy run -- -q --headed",
+    "cy:headless": "npm run cy run -- -q",
+    "cy:home": "npm run cy run -- --spec specs/homePageSpec.js"
   },
   "keywords": [
     "cypress",
@@ -14,10 +18,9 @@
     "automation"
   ],
   "author": "Brine",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "cypress": "^1.4.1"
-  }
+    "cypress": "^4.11.0"
+  },
+  "dependencies": {}
 }

@@ -1,12 +1,21 @@
 # Cypress Example
 
-An example project using the automation tool, [Cypress](https://www.cypress.io/).
+An example project using the automation tool, [Cypress](https://www.cypress.io/). These tests are quite silly but are intended to provide examples of common actions you may need in your testing. I've included:
+- page objects
+- api tests
+- various ways of running the tests (via npm scripts)
 
-I started porting my typical, _dorky_ tests over to using Cypress, as I've done with other automation tools. While writing the 4th test, I discovered that the tool [does not support new browser windows/tabs, nor iframes](https://docs.cypress.io/guides/references/trade-offs.html#Multiple-tabs). Sadly, this is a deal-breaker for me, but I had working code, so... here 'tis. 
+Cypress is an _agressively_ opinionated framework... some of these opinions are at best, misguided :) YMMV. It also doesn't support all browsers, nor multiple windows (a deal breaker for many).
 
-## Running
-In case you'd like to see it go!
-1. clone it
-2. `npm install`
-3. `npm test`
-4. click the test link in the Cypress app window
+## Requires
+1. [node](https://nodejs.org/en/)
+1. [git](https://git-scm.com/)
+
+## Setup
+1. clone: `git@github.com:qualityshepherd/cypress-example.git`
+1. install: `npm i`
+
+## Run Them Tests
+1. all'vum: `npm test`
+1. just homePage: `npm run cy:home`
+1. headless: `npm run cy:headless`
