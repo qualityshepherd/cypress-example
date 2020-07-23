@@ -1,5 +1,8 @@
 # Cypress Example
 
+[![Codeship Status for qualityshepherd/cypress-example](https://app.codeship.com/projects/b91bbd90-af26-0138-8898-22ba82a42bc3/status?branch=master)](https://app.codeship.com/projects/403818)
+
+
 An example project using the automation tool, [Cypress](https://www.cypress.io/). These tests are quite silly but are intended to provide examples of common actions you may need in your testing. I've included:
 - page objects
 - api tests
