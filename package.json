@@ -8,7 +8,8 @@
     "cy:open": "npm run cy open",
     "test": "npm run cy run -- -q --headed",
     "cy:headless": "npm run cy run -- -q",
-    "cy:home": "npm run cy run -- --spec specs/homePageSpec.js"
+    "cy:home": "npm run cy run -- --spec specs/homePageSpec.js",
+    "ci": "npm run cy run -- -q"
   },
   "keywords": [
     "cypress",
