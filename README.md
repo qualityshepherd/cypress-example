@@ -8,6 +8,7 @@ An example project using the automation tool, [Cypress](https://www.cypress.io/)
 
 ## Rant
 Cypress is an _agressively_ opinionated framework... some of these opinions are at best, misguided :) YMMV. I know it's very popular... but honestly, **I would avoid Cypress if you can**. Some of my issues with it are:
+
 1. it's overly complex
 1. TONS of misinformation about how to use it on the internets
 1. it cannot handle new windows/tabs
