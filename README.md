@@ -1,6 +1,6 @@
 # Cypress Example
 
-[![Codeship Status for qualityshepherd/cypress-example](https://app.codeship.com/projects/b91bbd90-af26-0138-8898-22ba82a42bc3/status?branch=master)](https://app.codeship.com/projects/403818)
+[![Codeship Status for qualityshepherd/cypress-example](https://app.codeship.com/projects/b91bbd90-af26-0138-8898-22ba82a42bc3/status?branch=main)](https://app.codeship.com/projects/403818)
 
 An example project using the automation tool, [Cypress](https://www.cypress.io/). These tests are quite silly but are intended to provide examples of common actions you may need in your testing. I've included:
 - page objects
@@ -9,7 +9,7 @@ An example project using the automation tool, [Cypress](https://www.cypress.io/)
 ## Rant
 Cypress is an _agressively_ opinionated framework... some of these opinions are at best, misguided :) YMMV. I know it's very popular... but honestly, **I would avoid Cypress if you can**. Some of my issues with it are:
 1. it's overly complex
-1. TONS of misinformation on the internets
+1. TONS of misinformation about how to use it on the internets
 1. it cannot handle new windows/tabs
 1. it can't handle multiple domains in one test file
 1. it requires learning a proprietary framework rather than learning to code
