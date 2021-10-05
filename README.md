@@ -1,7 +1,5 @@
 # Cypress Example
 
-[![Codeship Status for qualityshepherd/cypress-example](https://app.codeship.com/projects/b91bbd90-af26-0138-8898-22ba82a42bc3/status?branch=main)](https://app.codeship.com/projects/403818)
-
 An example project using the automation tool, [Cypress](https://www.cypress.io/). These tests are quite silly but are intended to provide examples of common actions you may need in your testing. I've included:
 - page objects
 - various ways of running the tests (via npm scripts)
@@ -17,6 +15,7 @@ Cypress is an _agressively_ opinionated framework... some of these opinions are 
 1. it teaches some bad testing habits (eg. expects in page objects)
 1. it's slow
 1. anything it doesn't handle the docs will tell you _YOU SHOULDN'T WANT TO DO THAT_ (eg. test if an element exists)
+1. it's a total pain to get it working on CI
 1. I have yet to see _anyone_ use it well
 
 I _strongly_ suggest using [Testcafe](https://github.com/qualityshepherd/testcafe-example) instead.
