@@ -16,7 +16,7 @@ const homePage = {
    * @param  {string} postTitle
    * @return {bool}
    */
-  findPostByPaging(postTitle) {
+  findPostByPaging (postTitle) {
     cy.get(this.nextPageLink).click();
     (cy.get(this.postTitles).contains(postTitle)) ? true : this.findPostByPaging(postTitle)
   }
