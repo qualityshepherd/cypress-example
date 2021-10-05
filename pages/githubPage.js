@@ -1,11 +1,11 @@
-import basePage from './basePage';
+import basePage from './basePage'
 
 const githubPage = {
-    url: 'https://github.com/qualityshepherd/',
-    vcard: '.vcard-names',
+  url: 'https://github.com/qualityshepherd/',
+  vcard: 'vcard-fullname',
 
-    username() {
-      return cy.get(this.vcard)
-    }
+  userAvatar () {
+    return cy.get(this.vcard)
+  }
 }
-export default {...basePage, ...githubPage}
+export default { ...basePage, ...githubPage }

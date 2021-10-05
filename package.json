@@ -2,15 +2,8 @@
   "name": "cypress-example",
   "version": "1.0.0",
   "description": "An example Cypress e2e test project",
-  "main": "index.js",
-  "scripts": {
-    "cy": "./node_modules/.bin/cypress",
-    "cy:open": "npm run cy open",
-    "test": "npm run cy run -- -q --headed",
-    "cy:headless": "npm run cy run -- -q",
-    "cy:home": "npm run cy run -- --spec specs/homePageSpec.js",
-    "ci": "npm run cy run -- -q"
-  },
+  "author": "brine",
+  "license": "MIT",
   "keywords": [
     "cypress",
     "e2e",
@@ -18,10 +11,30 @@
     "test",
     "automation"
   ],
-  "author": "Brine",
-  "license": "MIT",
-  "devDependencies": {
-    "cypress": "^4.11.0"
+  "standard": {
+    "globals": [
+      "cy",
+      "beforeAll",
+      "afterAll",
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach"
+    ]
   },
-  "dependencies": {}
+  "scripts": {
+    "cy": "cypress",
+    "open": "npm run cy open",
+    "test": "npm run cy run -- -q --headed",
+    "headless": "npm run cy run -- -q",
+    "home": "npm run cy run -- --spec specs/homePageSpec.js",
+    "pretty": "standard --fix",
+    "ci": "npm run cy run -- -q"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "cypress": "^8.5.0",
+    "standard": "^16.0.4"
+  }
 }

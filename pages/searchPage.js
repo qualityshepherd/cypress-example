@@ -1,26 +1,25 @@
-import basePage from './basePage';
+import basePage from './basePage'
 
 const searchPage = {
   url: '?search',
-  searchBox: '#search_input',
+  searchBox: '#search',
   searchBtn: '[type="submit"]',
-  results: '.search-result',
+  resultPosts: '.post',
   noResultsMsg: '#no-results',
 
-  searchFor(text) {
+  searchFor (text) {
     cy.get(this.searchBox)
-      .click().type(text)
-      .get(this.searchBtn).click()
+      .click()
+      .type(text)
+      .type('{enter}')
   },
 
-  results() {
-    return cy.get(this.results)
+  results () {
+    return cy.get(this.resultPosts)
   },
 
-  noResults() {
+  noResults () {
     return cy.get(this.noResultsMsg)
   }
 }
-export default {...basePage, ...searchPage}
-
-
+export default { ...basePage, ...searchPage }
