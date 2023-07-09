@@ -10,7 +10,7 @@ An example project using the automation tool, [Cypress](https://www.cypress.io/)
 Cypress is an _agressively_ opinionated framework... some of these opinions are at best, misguided :) YMMV. I know it's very popular... but honestly, **I would avoid Cypress if you can**. My issues with Cypress include:
 
 1. it hates on page objects
-1. it have a version(s) problem: TONS of misinformation about how to use it on the internets
+1. it has a versioning problem: TONS of misinformation about how to use it on the internets
 1. it cannot handle new windows/tabs
 1. it can't handle multiple domains in one test file
 1. it requires learning a proprietary framework rather than learning to code
