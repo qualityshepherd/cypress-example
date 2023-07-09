@@ -31,10 +31,8 @@
     "pretty": "standard --fix",
     "ci": "npm run cy run -- -q"
   },
-  "devDependencies": {
-  },
   "dependencies": {
-    "cypress": "^8.5.0",
-    "standard": "^16.0.4"
+    "cypress": "^12.17.0",
+    "standard": "^17.1.0"
   }
 }

@@ -7,18 +7,19 @@ An example project using the automation tool, [Cypress](https://www.cypress.io/)
 ## Rant
 Cypress is an _agressively_ opinionated framework... some of these opinions are at best, misguided :) YMMV. I know it's very popular... but honestly, **I would avoid Cypress if you can**. My issues with Cypress include:
 
-1. it's overly complex
-1. TONS of misinformation about how to use it on the internets
+1. it hates on page objects
+1. it have a version(s) problem: TONS of misinformation about how to use it on the internets
 1. it cannot handle new windows/tabs
 1. it can't handle multiple domains in one test file
 1. it requires learning a proprietary framework rather than learning to code
 1. it teaches some bad testing habits (eg. expects in page objects)
+1. it thinks conditionals in tests are ok; they're not
 1. it's slow
 1. anything it doesn't handle the docs will tell you _YOU SHOULDN'T WANT TO DO THAT_ (eg. test if an element exists)
 1. it's a total pain to get it working on CI
 1. I have yet to see _anyone_ use it well
 
-I _strongly_ suggest using [Testcafe](https://github.com/qualityshepherd/testcafe-example) instead.
+I _strongly_ suggest using [Testcafe](https://github.com/qualityshepherd/testcafe-example) or [Playwright](https://playwright.dev/) instead.
 
 ## Requires
 1. [node](https://nodejs.org/en/)
