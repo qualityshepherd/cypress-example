@@ -1,3 +1,5 @@
+[![E2E Tests](https://github.com/qualityshepherd/cypress-example/actions/workflows/e2e.yaml/badge.svg)](https://github.com/qualityshepherd/cypress-example/actions/workflows/e2e.yaml)
+
 # Cypress Example
 
 An example project using the automation tool, [Cypress](https://www.cypress.io/). These tests are quite silly but are intended to provide examples of common actions you may need in your testing. I've included:
@@ -16,7 +18,6 @@ Cypress is an _agressively_ opinionated framework... some of these opinions are 
 1. it thinks conditionals in tests are ok; they're not
 1. it's slow
 1. anything it doesn't handle the docs will tell you _YOU SHOULDN'T WANT TO DO THAT_ (eg. test if an element exists)
-1. it's a total pain to get it working on CI
 1. I have yet to see _anyone_ use it well
 
 I _strongly_ suggest using [Testcafe](https://github.com/qualityshepherd/testcafe-example) or [Playwright](https://playwright.dev/) instead.
